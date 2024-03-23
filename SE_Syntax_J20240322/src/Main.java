@@ -31,11 +31,15 @@ public class Main {
 
     public static void drawMap(Shape shape){
         shape.draw();
+
+
     }
     public static void main(String[] args) {
-        Shape shape=new Cycle();
-        Shape shape1=new Rect();
+        Shape shape=new Cycle("33");
+        Shape shape1=new Rect("1");
         drawMap(shape);
         drawMap(shape1);
+        shape.type="qqew";
+        System.out.println(shape.type);
     }
 }

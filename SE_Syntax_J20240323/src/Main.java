@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         IShape iShape=new Cycle();
         IShape iShape2=new Rect();
+        iShape.draw();
 
         new IShape(){
             @Override

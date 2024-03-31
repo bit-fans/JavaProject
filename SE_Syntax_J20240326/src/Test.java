@@ -98,5 +98,9 @@ public class Test {
         String str33=str123.trim();
         System.out.println(str33);
 
+        StringBuffer sb=new StringBuffer();
+        sb.append("Genshin Impact");
+        System.out.println(sb.reverse());
+
     }
 }

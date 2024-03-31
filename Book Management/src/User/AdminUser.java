@@ -31,6 +31,6 @@ public class AdminUser extends User {
 
     @Override
     public void doOperation(int choice, BookList bookList) {
-        this.iOperations[choice].work(bookList);
+        this.iOperations[choice].work(bookList); //这步实现了work方法的调用
     }
 }

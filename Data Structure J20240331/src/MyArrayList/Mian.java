@@ -6,5 +6,9 @@ public class Mian {
         myArrayList.add(1);
         myArrayList.add(2);
         myArrayList.add(3);
+
+        myArrayList.display();
+        myArrayList.remove(1);
+        myArrayList.display();
     }
 }

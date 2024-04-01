@@ -9,7 +9,6 @@ public class MyArrayList implements IList{
     public static final int DEFAULT_CAPACITY=5;
     public MyArrayList(){
         elem=new int[DEFAULT_CAPACITY];
-        this.useSized=0;
     }
 
     /**
